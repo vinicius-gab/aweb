@@ -17,14 +17,13 @@ header {
   border: 10px solid #3E8C8C; 
   background-color: #4BA69D;  
   padding: 2vh 0;
+  text-align: center;
 }
 
 h1 {
   font-size: large;
   color: #733E32; 
   text-align: center;
-  top: 5vh;
-  left: 5%;
 }
 
 a {
@@ -47,7 +46,6 @@ a:hover {
   transform: scale(1.05);     
 }
 
-
 ul {
   display: block;
   margin: 3vh auto; 
@@ -64,18 +62,14 @@ ul li {
 }
 
 table {
-  position: relative;
-  top: 20vh;
-  left: 40%;
+  margin: 5vh auto; /* centraliza tabela */
   border-collapse: collapse;
 }
 
 footer {
-  position: relative;
-  top: 40vh;
   text-align: center;
   background-color: #3E8C8C; 
-  color: #EBEBF2; /* branco */
+  color: #EBEBF2; 
   padding: 1rem;
 }
 
@@ -92,30 +86,38 @@ footer {
   vertical-align: middle;     
   margin-left: 10px;           
   color: #733E32; 
-  position: static;            
 }
 
 .imagemhero {
   width: 55%;
-  height: 45vh;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
+.hero-container {
+    position: relative; 
+    
+}
+
 .botãoCTA {
-  background-color: #733E32;
-  color: #EBEBF2;
-  display: inline-block;
-  padding: 12px 24px;      
-  border-radius: 8px;      
-  text-decoration: none;   
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
-  position: relative;
-  left: 25%; 
-  bottom: 5vh;
+    position: absolute; 
+    bottom: 0;       
+    left: 0;
+    margin: 10px;         
+    background-color: #733E32;
+    color: #EBEBF2;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.botãoCTA:hover {
+    background-color: #5b2e24;
+    transform: scale(1.05);
 }
 
 .botãoCTA:hover {
@@ -124,52 +126,43 @@ footer {
 }
 
 .causo {
-  position: relative;
-  top: 5vh;
-  left: 15%;
+  margin: 5vh auto 2vh auto;
+  text-align: center;
 }
 
 .imgcauso {
   width: 400px;
-  height: 400px;
-  position: relative;
-  top: 1vh;
-  left: 80%;
-}
-
-.curiosidades {
-  position: relative;
-  top: 2vh;
-  left: auto;
-}
-
-.sobre_mim{
-  position: relative;
-  top: 1vh;
-  left: 30%;
-  text-align: justify;
-}
-
-.minhahistória {
-  position: relative;
-  top: 1vh;
-  left: 15%;
-  max-width: 80%;
-  font-size: larger;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin: 2vh 2%;
 }
 
 .textocauso {
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+  margin: 2vh 2%;
+  text-align: justify;
   font-size: large;
-  margin-top: 6vh; 
-  text-align: center;
-  width: 80%;
-  left: 15%;
-  color: #733E32; 
+  color: #733E32;
 }
 
-.textocauso, .imgcauso, .sobre_mim {
-  display: inline-block; 
-  vertical-align: top;   
+.curiosidades {
+  margin: 2vh auto;
+}
+
+.sobre_mim{
+  margin: 2vh auto;
+  text-align: justify;
+  width: 70%;
+}
+
+.minhahistória {
+  font-size: larger;
+  margin: 2vh auto;
+  text-align: justify;
+  width: 80%;
 }
 
 .portifólio {
@@ -178,18 +171,8 @@ footer {
 }
 
 .rotina {
-  position: relative;
-  top: 20vh;
+  margin: 5vh auto;
   text-align: center;
-}
-
-#portifolio {
-  text-align: center;
-  margin-top: 50px;
-}
-
-#portifolio h2 {
-  color: #733E32;
 }
 
 .cards-container {
@@ -198,7 +181,7 @@ footer {
 
 .card {
   display: inline-block; 
-  margin: 10px;          
+  margin: 1%;          
   width: 200px;          
   vertical-align: top; 
 }
