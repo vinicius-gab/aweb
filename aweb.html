@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+    <link rel="stylesheet" href="style_projeto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="Favicon.png">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="Home">
+        <img class="assinatura" src="Minha logo.jpeg" alt="Minha assinatura">
+        <h1 class="titulo">Vinícius Gabriel Palhares do Nascimento</h1>
+        
+        <nav>
+            <a href="#Home"><i class="fa fa-home"></i> Home</a>
+            <a href="#Hero"><i class="fa fa-star"></i> Hero</a>
+            <a href="#Rotina"><i class="fa fa-clock"></i> Rotina</a>
+            <a href="#Curiosidades"><i class="fa fa-question-circle"></i> Curiosidades</a>
+            <a href="#Causos"><i class="fa fa-book"></i> Causos</a>
+            <a href="#Portifólio"><i class="fa fa-image"></i> Portifólio</a>
+            <a href="#Contato"><i class="fa fa-envelope"></i> Contato</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="Hero">
+        <h1>Aspirante a programador, obcecado por doces</h1>
+        <img class="imagemhero" src="Minha foto.jpg" alt="Imagem Atual">
+        <a class="botãoCTA" href="#saiba_mais">Saiba mais</a>
+    </section>
+
+    <!-- CURIOSIDADES -->
+    <section id="Curiosidades">
+        <h1 class="curiosidades">Curiosidades sobre mim</h1>
+        <ul>
+            <li>Amo filmes de animação ou ficção;</li>
+            <li>Minhas cores favoritas são azul e roxo;</li>
+            <li>Tenho vontade de aprender uma língua nova, como Italiano ou Japonês;</li>
+            <li>Só consigo estudar caso eu esteja escutando música, principalmente música clássica;</li>
+            <li>Minhas sagas de livro favoritas são Percy Jackson, Harry Potter e A Divina Comédia de Dante Alighieri;</li>
+        </ul>
+    </section>
+
+    <!-- CAUSOS -->
+    <section id="Causos">
+        <h1 class="causo">Uma História Engraçada</h1>
+        <img class="imgcauso" src="Imagem do causo.jpg" alt="Foto do dia do ocorrido">
+        <p class="textocauso">
+            Houve uma vez, durante um piquenique com meus amigos, em que uma amiga levou um pudim.<br>
+            Nós comemos normalmente e, logo após, uma parte do grupo saiu para ir aos brinquedos da praça.<br>
+            Algum tempo depois, a outra parte do grupo chegou ao local onde estávamos.<br>
+            Quando foram questionados sobre o motivo de terem deixado nossas coisas onde estavam, eles afirmaram<br> 
+            que ninguém pegaria nada. Ao sairmos, percebemos que o pudim que havia sobrado<br>
+            da minha amiga tinha sido levado, provavelmente por alunos de uma escola próxima.
+        </p>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="saiba_mais">
+        <h1 class="sobre_mim">QUEM SOU EU?</h1>
+        <p class="minhahistória">
+            Meu nome é Vinícius Gabriel, tenho 17 anos e atualmente moro em Céara-Mirim,<br>
+            sou um aluno do curso técnico de informática e estou no terceiro ano.<br>
+            Eu sou um aspirante a programador, mesmo que o meu principal projeto seja só o meu<br>
+            PI que consiste na análise de microdados das notas do ENEM. No meu tempo livre,<br>
+            eu adoro jogar alguns jogos, principalmente alguns como Stardew Valley, Minecraft ou jogos de estratégia<br>
+            como xadrez ou TCG's. No meu tempo livre eu também gosto de passar tempo com meus<br>
+            amigos e familiares.
+        </p>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section id="Portifólio">
+        <h1 class="portifólio">Minhas principais atividades</h1>
+        <div class="cards-container">
+            <div class="card">
+                <img src="termo.png" alt="Atividade 1">
+                <h3>Jogos de palavras, ex: termo, letroso, conexo</h3>
+                <p>Normalmente é uma das minhas primeiras atividades do dia.<br>
+                Eu costumo jogar logo pela manhã após o café da manhã.</p>
+            </div>
+
+            <div class="card">
+                <img src="xadrez.png" alt="Atividade 2">
+                <h3>Pratico xadrez</h3>
+                <p>Eu jogo algumas partidas de xadrez por meio do<br>
+                app/site "chess.com", além de buscar me aprimorar e descobrir<br>
+                novas aberturas e jogadas de nível mais avançado.</p>
+            </div>
+
+            <div class="card">
+                <img src="python.png" alt="Atividade 3">
+                <h3>Programação em Python</h3>
+                <p>Tenho alguns códigos em Python, alguns muito simples só para testar coisas.<br>
+                Link para o drive: <a href="https://drive.google.com/drive/folders/15N1DeDmI-5_eF1rZYIvXKoIor19hwxhW?usp=drive_link" target="_blank">minha pasta</a></p>
+            </div>
+
+            <div class="card">
+                <img src="doces.png" alt="Atividade 4">
+                <h3>Preparar doces</h3>
+                <p>De tempos em tempos tenho a mania de preparar algumas receitas, principalmente doces.<br>
+                Eu gosto de cozinhar por ser algo terapêutico do estresse do dia a dia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROTINA -->
+    <h1 class="rotina" id="Rotina">Minha rotina padrão</h1>
+    <table border="10">
+        <tr>
+            <th>Período</th>
+            <th>Horário</th>
+            <th>Atividade</th>
+            <th>O que faço</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Manhã</td>
+            <td>06:30</td>
+            <td>Acordar</td>
+            <td>Bebo água e começo a me preparar</td>
+        </tr>
+        <tr>
+            <td>07:00</td>
+            <td>Tomo meu café da manhã</td>
+            <td>Evitar celular</td>
+        </tr>
+        <tr>
+            <td>08:00</td>
+            <td>Eu estudo</td>
+            <td>Matéria com mais dificuldade</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tarde</td>
+            <td>12:00</td>
+            <td>Almoço</td>
+            <td>Começo a me arrumar para ir ao IF</td>
+        </tr>
+        <tr>
+            <td>13:00</td>
+            <td>Aula</td>
+            <td>Fico no IF a tarde toda</td>
+        </tr>
+        <tr>
+            <td>18:00</td>
+            <td>Saio do IF</td>
+            <td>Volto para casa</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Noite</td>
+            <td>19:00</td>
+            <td>Janto</td>
+            <td>Após a janta eu faço alguma atividade que precise</td>
+        </tr>
+        <tr>
+            <td>19:30</td>
+            <td>Aproveito meu tempo livre</td>
+            <td>Jogo alguns jogos</td>
+        </tr>
+        <tr>
+            <td>22:00</td>
+            <td>Dormir</td>
+            <td>Responder algumas mensagens que sejam necessárias</td>
+        </tr>
+    </table>
+
+    <!-- FOOTER -->
+    <footer id="Contato">
+        <h1>Vinícius Gabriel Palhares do Nascimento</h1>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vinicius123palhares@gmail.com" target="_blank">Enviar e-mail</a>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="https://www.instagram.com/vini_palhares_nascimento/" target="_blank">Meu Instagram</a>
+        <i class="fa-brands fa-square-instagram"></i>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+/* ------------------ RESET ------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------ TAGS ------------------ */
+body {
+  background-color: #EBEBF2; 
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #733E32;
+  overflow-x: hidden;
+}
+
+header {
+  border: 10px solid #3E8C8C; 
+  background-color: #4BA69D;  
+  padding: 2vh 0;
+}
+
+h1 {
+  font-size: large;
+  color: #733E32; 
+  text-align: center;
+  top: 5vh;
+  left: 5%;
+}
+
+a {
+  color: #A66953;                
+  background-color: white;        
+  border: solid #3E8C8C 2px;      
+  border-radius: 12px;           
+  padding: 10px 20px;            
+  text-decoration: none;          
+  display: inline-block;         
+  font-weight: bold;              
+  cursor: pointer;               
+  margin: 0 10px;                 
+  transition: all 0.25s ease;     
+}
+
+a:hover {
+  background-color: #3E8C8C;  
+  color: white;               
+  transform: scale(1.05);     
+}
+
+
+ul {
+  display: block;
+  margin: 3vh auto; 
+  padding: 0; 
+  list-style: none;
+  width: fit-content; 
+}
+
+ul li {
+  border: 2px solid #4BA69D;
+  padding: 1vh 2vh; 
+  margin-bottom: 1vh; 
+  border-radius: 8px;
+}
+
+table {
+  position: relative;
+  top: 20vh;
+  left: 40%;
+  border-collapse: collapse;
+}
+
+footer {
+  position: relative;
+  top: 40vh;
+  text-align: center;
+  background-color: #3E8C8C; 
+  color: #EBEBF2; /* branco */
+  padding: 1rem;
+}
+
+/* ------------------ CLASSES ------------------ */
+.assinatura {
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;     
+  vertical-align: middle;     
+}
+
+.titulo {
+  display: inline-block;      
+  vertical-align: middle;     
+  margin-left: 10px;           
+  color: #733E32; 
+  position: static;            
+}
+
+.imagemhero {
+  width: 55%;
+  height: 45vh;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.botãoCTA {
+  background-color: #733E32;
+  color: #EBEBF2;
+  display: inline-block;
+  padding: 12px 24px;      
+  border-radius: 8px;      
+  text-decoration: none;   
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  position: relative;
+  left: 25%; 
+  bottom: 5vh;
+}
+
+.botãoCTA:hover {
+  background-color: #5b2e24;  
+  transform: scale(1.05);     
+}
+
+.causo {
+  position: relative;
+  top: 5vh;
+  left: 15%;
+}
+
+.imgcauso {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 1vh;
+  left: 80%;
+}
+
+.curiosidades {
+  position: relative;
+  top: 2vh;
+  left: auto;
+}
+
+.sobre_mim{
+  position: relative;
+  top: 1vh;
+  left: 30%;
+  text-align: justify;
+}
+
+.minhahistória {
+  position: relative;
+  top: 1vh;
+  left: 15%;
+  max-width: 80%;
+  font-size: larger;
+}
+
+.textocauso {
+  font-size: large;
+  margin-top: 6vh; 
+  text-align: center;
+  width: 80%;
+  left: 15%;
+  color: #733E32; 
+}
+
+.textocauso, .imgcauso, .sobre_mim {
+  display: inline-block; 
+  vertical-align: top;   
+}
+
+.portifólio {
+    margin-top: 5vh; 
+    text-align: center;
+}
+
+.rotina {
+  position: relative;
+  top: 20vh;
+  text-align: center;
+}
+
+#portifolio {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#portifolio h2 {
+  color: #733E32;
+}
+
+.cards-container {
+  text-align: center; 
+}
+
+.card {
+  display: inline-block; 
+  margin: 10px;          
+  width: 200px;          
+  vertical-align: top; 
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  color: #733E32;
+  margin: 5px 0;
+}
+
+.card p {
+  font-size: 20px;
+  color: #555;
+}
